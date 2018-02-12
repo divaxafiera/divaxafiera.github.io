@@ -1,0 +1,86 @@
+p{color: #EAE8FF; }
+
+
+h2{
+    color: #F2E8EB;
+    text-decoration: underline;}
+
+
+h4{color: #C9F0FF;}
+
+
+li{color: #C9F0FF;}
+
+
+.body {
+    border: 50px;
+    border-style: solid;
+    border-color: #F9DC5C;
+    background-color: #2D3142;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.head {
+	background-color: #F9DC5C;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+h1 {
+	color: white;
+    text-shadow: 5px 3px #2D3142;
+}
+
+.w3-tag{
+    background-color:#2D3142;
+    color:white;
+    display:inline-block;
+    padding-left:8px
+    ;padding-right:8px;
+    text-align:center}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #230903;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFE9CE;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+

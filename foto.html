@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Gallery</title>
+
+	<link rel="stylesheet" href="css/dw.css/">
+
+</head>
+<body>
+
+ <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p align="center" id="caption"></p>
+    </div>
+  </div>
+
+
+<div class="w3-row">
+    <div class="w3-third">
+      <img src="img/album/1.jpg" style="width:33%" onclick="onClick(this)" alt="My watch in the nature">
+      <img src="img/album/2.jpg" style="width:33%" onclick="onClick(this)" alt="What a beautiful scene">
+      <img src="img/album/4.jpg" style="width:33%" onclick="onClick(this)" alt="My favorite watch and hair band">
+    </div>
+
+    <div class="w3-third">
+      <img src="img/album/5.jpg" style="width:33%" onclick="onClick(this)" alt="Hey I'm the new sailor moon">
+      <img src="img/album/3.jpg" style="width:33%" onclick="onClick(this)" alt="Me in a silhouette">
+      <img src="img/album/6.jpg" style="width:33%" onclick="onClick(this)" alt="Hey :)">
+    </div>
+    
+    <div class="w3-third">
+      <img src="img/album/8.jpg" style="width:33%" onclick="onClick(this)" alt="I borrowed his hat">
+      <img src="img/album/7.jpg" style="width:33%" onclick="onClick(this)" alt="Another photo of my watch">
+      <img src="img/album/9.jpg" style="width:33%" onclick="onClick(this)" alt="What a beautiful day!">
+    </div>
+  </div>
+
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>

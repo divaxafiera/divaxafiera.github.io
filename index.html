@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html>
-<body bgcolor="#ffe6e6">
 <head>
-	<title>Halaman Diva</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="css/dw.css/">
+	<title>Diva's Page</title>
 </head>
+
+
+
 <body>
-	<h1><font color="#003366">Tentang Saya</font></h1>
-		<p><font color="#264d73">Saya anak pertama dari 2 bersaudara. Saya lahir pada tanggal 19 September 2001. Saya suka melakukan hal baru.</font></p>
 
-	<h2><font color="#004d4d">Sekolah saya</font></h2>
-		<p><font color="#264d73">Bersekolah di <strong>SMK-SMAK Bogor</strong>, sekarang saya dudui di <em>kelas XI</em>.</font></p>
-		<h3><font color="#003333">Kelas</font></h3>
+	<div class="head">
+	<div class="w3-quarter">
+ 	 <img src="img/album/3.jpg" alt="Avatar" style="width:45%">
+ 	</div>
+	<h1>Hey It's My Page!</h1>
+	<p><span class="w3-tag">You will know me <strong>REALLY</strong> well after you read this page.</p>
+	</div>
 
-	<h2><font color="#004d4d">Keluarga saya</font></h2>
-		<img src="img/keluargab.jpg">
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="foto.html">Mini Gallery</a>
+  <a href="https://www.instagram.com/xafiera_/">My Instagram</a>
+  <a href="https://ask.fm/daebdivax/">Ask.fm</a>
+	</div>
 
-	<h2><font color="#004d4d">Hobi</font></h2>
-		<p><font color="#264d73"> Hobi saya ya mencoba sesuatu yang baru. Selama hal itu <strong>tidak dilarang oleh agama</strong>.</font> </p>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; want to know more?</span>
+
+	<script>
+	function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+
+	<div class="body">
+	<h2>Name</h2>
+		<p>My fullname is Diva Xafiera Barlianto, and my friends used to call me Diva. But I have a lot of nickname such as Daeb, Debbie, Vanya, and even Safi.</p>
+		<h4>Fun Fact</h4>
+			<p>Actually my name is Xaviera. But back to 01's the internet was quiet hard to be accessed and my mom forgot how to spell "Xaviera". Beacause of that my name uses F instead of V.</p>
+	</div>
+
+	<div class="body">
+	<h2>DOB</h2>
+		<img src="http://www.rssiagaraya.com/wp-content/uploads/2014/09/img-informasi.png" align="right" width="20%">
+		<p>I was born on the 19th of September 2001 in Jakarta.</p>
+		<h4>More Facts</h4>
+			<p>I was born in <i>Siaga Raya</i>, and it was 9 in the morning. I am the first angel that came to my family.</p>
+	</div>
+
+
+	<div class="body">	
+	<h2>Hobby</h2>
+		<p>I actually don't have any hobby because I get bored easily. But here are the top 2 things I like to do in my spare time:
+			<li>I like to go fishing</li>
+			<img src="img/mancing.jpg" height="800">
+				<p>Here is the photo of me holding the monster fish. The monster fish was <strong>so BIG</strong> and after I caught the fish I went home to eat it. I love to fish because it's so fun and it thrills me at the same time.</p>
+			<li>I love to bake</li>
+		</p>
+	</div>
+
 	
+
 </body>
 </html>
