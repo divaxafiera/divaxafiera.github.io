@@ -1,5 +1,6 @@
 p{
     color: #EAE8FF;
+    text-align: justify;
     }
 
 
@@ -32,6 +33,17 @@ li{color: #C9F0FF;}
     padding-bottom: 50px;
     padding-left: 80px;
     text-align: center;
+}
+
+.hobby {
+    border: 10px;
+    border-style: solid;
+    border-color: #F9DC5C;
+    background-color: #2D3142;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
 }
 
 h1 {
